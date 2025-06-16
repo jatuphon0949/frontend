@@ -29,13 +29,13 @@ export default function RootLayout({ children }) {
           <Link href="/">หน้าแรก</Link>
         </li>
         <li>
-          <Link href="/about">เกี่ยวกับเรา</Link>
+          <Link href="/about">about</Link>
         </li>
         <li>
-          <Link href="/products">สินค้า</Link>
+          <Link href="/products">service</Link>
         </li>
         <li>
-          <Link href="/contact">ติดต่อเรา</Link>
+          <Link href="/contact">contact</Link>
         </li>
       </ul>
     </nav>
