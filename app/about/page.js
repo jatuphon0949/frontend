@@ -1,9 +1,23 @@
-// app/about/page.tsx
-export default function AboutPage() {
+// app/components/Navigation.tsx
+import Link from 'next/link';
+
+export default function Navigation() {
   return (
-    <div>
-      <h1>เกี่ยวกับเรา</h1>
-      <p>ยินดีต้อนรับสู่เว็บไซต์ของเรา</p>
-    </div>
+    <nav>
+      <ul>
+        <li>
+          <Link href="/">หน้าแรก</Link>
+        </li>
+        <li>
+          <Link href="/about">เกี่ยวกับเรา</Link>
+        </li>
+        <li>
+          <Link href="/products">สินค้า</Link>
+        </li>
+        <li>
+          <Link href="/contact">ติดต่อเรา</Link>
+        </li>
+      </ul>
+    </nav>
   );
 }
